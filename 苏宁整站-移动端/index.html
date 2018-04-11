@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script>
+			//console.log(window.devicePixelRatio);
+			var pixelRatio = 1 / window.devicePixelRatio;
+			document.write('<meta name="viewport" content="width=device-width,initial-scale='+ pixelRatio +',minimum-scale='+ pixelRatio +',maximum-scale='+ pixelRatio +',user-scalable=no" />')
+			
+			//获取html节点
+			var html=document.getElementsByTagName("html")[0];
+			//获取屏幕宽度
+			var pageWidth=html.getBoundingClientRect().width;
+			//屏幕宽度/数值=结果
+			html.style.fontSize=pageWidth/16+"px";
+
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		<!--头部-->
+		<header class="hea">
+			<a href="#" class="heaLeft">
+				<img src="images/suning_06.png"/>
+				<span>分类</span>
+			</a>
+			<input type="text" class="heaCenter" />
+			<a href="#" class="heaRight">
+				<img src="images/suning_03.png"/>
+				<span>购物车</span>
+			</a>
+		</header>
+		<!--内容-->
+		<div class="content">
+			<div class="pic1">
+				<a href="#"><img src="images/suning_14.png"/></a>
+			</div>
+			<div class="pic2">
+				<a href="#"><img src="images/suning_15.png"/></a>
+			</div>
+			
+			<!--板块一-->
+			<div class="menu">
+				<a href="#" class="subMenu">
+					<dl>
+						<dt><img src="images/suning_18.png"/></dt>
+						<dd>大聚惠</dd>
+					</dl>
+				</a>
+				<a href="#" class="subMenu">
+					<dl>
+						<dt><img src="images/suning_20.png"/></dt>
+						<dd>海外购</dd>
+					</dl>
+				</a>
+				<a href="#" class="subMenu">
+					<dl>
+						<dt><img src="images/suning_22.png"/></dt>
+						<dd>苏宁超市</dd>
+					</dl>
+				</a>
+				<a href="#" class="subMenu">
+					<dl>
+						<dt><img src="images/suning_24.png"/></dt>
+						<dd>红孩子</dd>
+					</dl>
+				</a>
+				<a href="#" class="subMenu nomar">
+					<dl>
+						<dt><img src="images/suning_26.png"/></dt>
+						<dd>嗨购精选</dd>
+					</dl>
+				</a>
+				<a href="#" class="subMenu">
+					<dl>
+						<dt><img src="images/suning_33.png"/></dt>
+						<dd>我的易购</dd>
+					</dl>
+				</a>
+				<a href="#" class="subMenu">
+					<dl>
+						<dt><img src="images/suning_34.png"/></dt>
+						<dd>金融</dd>
+					</dl>
+				</a>
+				<a href="#" class="subMenu">
+					<dl>
+						<dt><img src="images/suning_35.png"/></dt>
+						<dd>领云钻</dd>
+					</dl>
+				</a>
+				<a href="#" class="subMenu">
+					<dl>
+						<dt><img src="images/suning_36.png"/></dt>
+						<dd>门店导航</dd>
+					</dl>
+				</a>
+				<a href="#" class="subMenu nomar">
+					<dl>
+						<dt><img src="images/suning_37.png"/></dt>
+						<dd>客户端下载</dd>
+					</dl>
+				</a>
+			</div>
+			<!--头条-->
+			<div class="sntt">
+				<h3><a href="#">苏宁头条</a></h3>
+				<ul class="snttRight">
+					<li><a href="#" class="cor1">分分钟KO宋仲基，撩妹“时”力派</a></li>
+					<li><a href="#" class="cor2">火爆小短裤，穿出最精致的你~</a></li>
+				</ul>
+			</div>
+			<!--板块二-->
+			<div class="section">
+				<div class="sec">
+					<p class="secLeft"><a href=""><img src="images/suning_54.png"/></a></p>
+					<ul class="secRight">
+						<li class="mar"><a href=""><img src="images/suning_56.png"/></a></li>
+						<li><a href=""><img src="images/suning_59.png"/></a></li>
+					</ul>
+				</div>
+				<ul class="sec2">
+					<li><a href=""><img src="images/suning_60.png"/></a></li>
+					<li><a href=""><img src="images/suning_61.png"/></a></li>
+					<li><a href=""><img src="images/suning_62.png"/></a></li>
+					<li><a href=""><img src="images/suning_63.png"/></a></li>
+					<li><a href=""><img src="images/suning_64.png"/></a></li>
+					<li><a href=""><img src="images/suning_65.png"/></a></li>
+					<li><a href=""><img src="images/suning_66.png"/></a></li>
+					<li><a href=""><img src="images/suning_67.png"/></a></li>
+				</ul>
+			</div>
+			<!--掌上抢-->
+			<div class="rob">
+				<div class="bt">
+					<p class="btLeft">
+						<span>20点场</span>
+						<b>03</b>
+						<i> ：</i>
+						<b>54</b>
+						<i> ：</i>
+						<b class="bor_cor">20</b>
+					</p>
+					<a href="#" class="btRight">
+						<span>吃货上新季</span>
+						<img src="images/dyh.png"/>
+					</a>
+				</div>
+				<div class="rob_con">
+					<a href="#" class="con">
+						<dl>
+							<dt><img src="images/suning_74.png"/></dt>
+							<dd class="con_1">
+								<p>¥ 15.90</p>
+								<del>¥ 56.00</del>
+								<img src="images/suning_81.png"/>
+							</dd>
+						</dl>
+					</a>
+					<a href="#" class="con">
+						<dl>
+							<dt><img src="images/suning_76.png"/></dt>
+							<dd class="con_1">
+								<p>¥ 39.90</p>
+								<del>¥ 69.00</del>
+								<img src="images/suning_84.png"/>
+							</dd>
+						</dl>
+					</a>
+					<a href="#" class="con">
+						<dl>
+							<dt><img src="images/suning_78.png"/></dt>
+							<dd class="con_1">
+								<p>¥ 149.00</p>
+								<del>¥ 319.00</del>
+								<img src="images/suning_87.png"/>
+							</dd>
+						</dl>
+					</a>
+				</div>
+			</div>
+			<div class="rob2">
+				<a href="#"><img src="images/suning_92.png"/></a>
+				<a href="#"><img src="images/suning_94.png"/></a>
+			</div>
+			<!--大聚惠-->
+			<div class="section2">
+				<h3><a href="#">大聚惠•精编</a></h3>
+				<a href="#" class="sec_app">
+					<dl>
+						<dt class="sec_txt">
+							<h4>大聚惠</h4>
+							<p>超级手机节 Apple品牌盛宴</p>
+						</dt>
+						<dd><img src="images/suning_98.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="sec_cz">
+					<dl>
+						<dt class="sec_txt2">
+							<h4>量贩惠</h4>
+							<p>抽纸每包 <span>1.7元起</span></p>
+						</dt>
+						<dd><img src="images/suning_100.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="sec_tm">
+					<dl>
+						<dt class="sec_txt3">
+							<h4>名品特卖</h4>
+							<p>PLAYBOYJEANS</p>
+						</dt>
+						<dd><img src="images/suning_99.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="sec_tm">
+					<dl>
+						<dt class="sec_txt3">
+							<h4 class="back">品牌惠</h4>
+							<p>华硕2849元起</p>
+						</dt>
+						<dd><img src="images/suning_101.png"/></dd>
+					</dl>
+				</a>
+			</div>
+			<!--每日一抢-->
+			<div class="bulK">
+				<a href="#" class="bulk">
+					<h3>每日一抢</h3>
+					<p>小米4C 799元/移动版</p>
+				</a>
+			</div>
+			<!--特色好货-->
+			<div class="features">
+				<h3>特色好货</h3>
+				<a href="#" class="yogurt">
+					<dl>
+						<dt class="yogurt_txt">
+							<h4>苏宁超市</h4>
+							<p>君乐宝开啡尔酸奶2箱<span>49包邮</span></p>
+						</dt>
+						<dd><img src="images/suning_110.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="list">
+					<dl>
+						<dt class="list_txt">
+							<h4>众筹</h4>
+							<p>28天4.3%年化</p>
+						</dt>
+						<dd><img src="images/suning_109.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="list">
+					<dl>
+						<dt class="list_txt">
+							<h4>试用</h4>
+							<p>4100mAh 大电量</p>
+						</dt>
+						<dd><img src="images/suning_112.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="list list2">
+					<dl>
+						<dt class="list_txt">
+							<h4 class="cor3">闪拍</h4>
+							<p>玩的就是心跳</p>
+						</dt>
+						<dd><img src="images/suning_116.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="list list2">
+					<dl>
+						<dt class="list_txt">
+							<h4>二手优品</h4>
+							<p>闲置商品来换钱</p>
+						</dt>
+						<dd><img src="images/suning_118.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="list list2">
+					<dl>
+						<dt class="list_txt">
+							<h4>以旧换新</h4>
+							<p>旧商品换新颜</p>
+						</dt>
+						<dd><img src="images/suning_121.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="list list2">
+					<dl>
+						<dt class="list_txt">
+							<h4 class="back2">全球闪购</h4>
+							<p>爱特美新版1+</p>
+						</dt>
+						<dd><img src="images/suning_122.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="list">
+					<img src="images/suning_123.png"/>
+				</a>
+				<a href="#" class="list list2">
+					<dl>
+						<dt class="list_txt">
+							<h4>智能家居</h4>
+							<p>土曼预约送礼</p>
+						</dt>
+						<dd><img src="images/suning_125.png"/></dd>
+					</dl>
+				</a>
+			</div>
+			<!--拜托了-->
+			<div class="banner">
+				<a href="#">
+					<img src="images/suning_127.png"/>
+				</a>
+			</div>
+			<!--热门市场-->
+			<div class="market">
+				<h3>热门市场</h3>
+				<a href="#" class="office">
+					<dl>
+						<dt class="office_txt">
+							<h4>电脑办公</h4>
+							<p>联想710S新品发售</p>
+						</dt>
+						<dd><img src="images/suning_133.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="office clothing">
+					<dl>
+						<dt class="office_txt">
+							<h4>服装城</h4>
+							<p>美裙节1元抢</p>
+						</dt>
+						<dd><img src="images/suning_130.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="show">
+					<dl>
+						<dt class="show_txt">
+							<h4>红孩子母婴</h4>
+							<p>小兔子早教机9.9元</p>
+						</dt>
+						<dd><img src="images/suning_137.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="show">
+					<dl>
+						<dt class="show_txt">
+							<h4>家电商城</h4>
+							<p>海信空调仅2199元</p>
+						</dt>
+						<dd><img src="images/suning_139.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="show">
+					<dl>
+						<dt class="show_txt">
+							<h4>家装建材</h4>
+							<p>精品预定5折起</p>
+						</dt>
+						<dd><img src="images/suning_141.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="show back3">
+					<dl>
+						<dt class="show_txt">
+							<h4>居家生活</h4>
+							<p>法兰绒毛毯12.12包邮</p>
+						</dt>
+						<dd><img src="images/suning_146.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="show back3">
+					<dl>
+						<dt class="show_txt">
+							<h4>美食街</h4>
+							<p>哞星人12盒4.18元</p>
+						</dt>
+						<dd><img src="images/suning_147.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="show back3">
+					<dl>
+						<dt class="show_txt">
+							<h4>美妆个护</h4>
+							<p>精油沐浴露4.18元抢</p>
+						</dt>
+						<dd><img src="images/suning_148.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="show back3">
+					<dl>
+						<dt class="show_txt">
+							<h4>手机通讯</h4>
+							<p>iPhone 6s 4698元起</p>
+						</dt>
+						<dd><img src="images/suning_152.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="show back3">
+					<dl>
+						<dt class="show_txt">
+							<h4>生活电器</h4>
+							<p>智能饭煲仅259元</p>
+						</dt>
+						<dd><img src="images/suning_153.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="show back3">
+					<dl>
+						<dt class="show_txt">
+							<h4>运动户外</h4>
+							<p>NB跑鞋1元预定</p>
+						</dt>
+						<dd><img src="images/suning_154.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="show back3">
+					<dl>
+						<dt class="show_txt">
+							<h4>数码智能</h4>
+							<p>积木机器人独家首发</p>
+						</dt>
+						<dd><img src="images/suning_158.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="show back3">
+					<dl>
+						<dt class="show_txt">
+							<h4>玩具童装</h4>
+							<p>益智磁性画板9.9元</p>
+						</dt>
+						<dd><img src="images/suning_160.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="show back3">
+					<dl>
+						<dt class="show_txt">
+							<h4>汽车用品</h4>
+							<p>优质车品一站购</p>
+						</dt>
+						<dd><img src="images/suning_162.png"/></dd>
+					</dl>
+				</a>
+			</div>
+			<!--品牌荟萃-->
+			<div class="brand">
+				<h3>品牌荟萃</h3>
+				<a href="#" class="brand_1">
+					<img src="images/suning_172.png"/>
+				</a>
+				<a href="#" class="brand_2">
+					<dl>
+						<dt class="brand_2_txt">
+							<h4>今日上新</h4>
+							<p>拉夏贝尔5折起</p>
+						</dt>
+						<dd><img src="images/suning_167.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="brand_2">
+					<dl>
+						<dt class="brand_2_txt">
+							<h4>品牌街</h4>
+							<p>华为P9火爆预约</p>
+						</dt>
+						<dd><img src="images/suning_169.png"/></dd>
+					</dl>
+				</a>
+			</div>
+			<!--苏宁金融-->
+			<div class="brand brand2">
+				<h3>苏宁金融</h3>
+				<a href="#" class="brand_1">
+					<img src="images/suning_177.png"/>
+				</a>
+				<a href="#" class="list">
+					<dl>
+						<dt class="list_txt">
+							<h4>苏宁理财</h4>
+							<p>认购再返最高20</p>
+						</dt>
+						<dd><img src="images/suning_180.png"/></dd>
+					</dl>
+				</a>
+				<a href="#" class="list list2">
+					<dl>
+						<dt class="list_txt">
+							<h4>任性付</h4>
+							<p>全民免息购手机</p>
+						</dt>
+						<dd><img src="images/suning_182.png"/></dd>
+					</dl>
+				</a>
+			</div>
+			<!--好店推荐-->
+			<div class="recommended">
+				<h3>好店推荐</h3>
+				<div class="guild">
+					<a href="#" class="guildLeft">
+						<h4>搞机大咖</h4>
+						<p>潮机新时尚</p>
+					</a>
+					<a href="#" class="guildLeft guildRight">
+						<h4>潮流女装</h4>
+						<p>春色撩人</p>
+					</a>
+					<p class="guild1">
+						<a href="#" class="guild1_1"><img src="images/suning_194.png"/></a>
+						<a href="#" class="guild1_2"><img src="images/suning_196.png"/></a>
+						<a href="#" class="guild1_2 nomar"><img src="images/suning_205.png"/></a>
+					</p>
+					<p class="guild1">
+						<a href="#" class="guild1_1"><img src="images/suning_199.png"/></a>
+						<a href="#" class="guild1_2"><img src="images/suning_201.png"/></a>
+						<a href="#" class="guild1_2 nomar"><img src="images/suning_206.png"/></a>
+					</p>
+					<ul class="guild2">
+						<li class="guild2_1"><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul>
+				</div>
+			</div>
+			<!--猜你喜欢-->
+			<div class="like">
+				<div class="like_bt">
+					<b></b>
+					<h3>猜你喜欢</h3>
+					<span></span>
+				</div>
+				<div class="like_section">
+					<a href="#" class="like_con">
+						<dl>
+							<dt><img src="images/suning_211.png"/></dt>
+							<dd class="like_txt">
+								<p>原装联想ThinkPad电脑包14寸15寸笔记本双肩包男女士背...</p>
+								<span>¥ 89.00</span>
+							</dd>
+						</dl>
+					</a>
+					<a href="#" class="like_con">
+						<dl>
+							<dt><img src="images/suning_213.png"/></dt>
+							<dd class="like_txt">
+								<p>ThinkPad联想笔记本电脑包14寸15寸双肩包背包男女士...</p>
+								<span>¥ 69.00</span>
+							</dd>
+						</dl>
+					</a>
+					<a href="#" class="like_con">
+						<dl>
+							<dt><img src="images/suning_217.png"/></dt>
+							<dd class="like_txt">
+								<p>御泥坊平衡矿物黑面膜21片</br>（送7丝面膜 共28片）</p>
+								<span>¥ 79.90</span>
+							</dd>
+						</dl>
+					</a>
+					<a href="#" class="like_con">
+						<dl>
+							<dt><img src="images/suning_218.png"/></dt>
+							<dd class="like_txt">
+								<p>亚都(YADU)超声波加湿器YC-X100S 2L</p>
+								<span>¥ 99.00</span>
+							</dd>
+						</dl>
+					</a>
+					<a href="#" class="like_con">
+						<dl>
+							<dt><img src="images/suning_221.png"/></dt>
+							<dd class="like_txt">
+								<p>七匹狼内衣男士保暖内套装冬秋衣秋裤男内衣V领圆领薄..</p>
+								<span>¥ 79.00</span>
+							</dd>
+						</dl>
+					</a>
+					<a href="#" class="like_con">
+						<dl>
+							<dt><img src="images/suning_222.png"/></dt>
+							<dd class="like_txt">
+								<p>美的(Midea) NDK20-16H1W欧式快热炉 取暖器 电暖器</p>
+								<span>¥ 259.00</span>
+							</dd>
+						</dl>
+					</a>
+					<a href="#" class="like_con">
+						<dl>
+							<dt><img src="images/suning_225.png"/></dt>
+							<dd class="like_txt">
+								<p>九阳(Joyoung)K17-F622 全钢电水壶烧水壶双层杯体防烫..</p>
+								<span>¥ 99.00</span>
+							</dd>
+						</dl>
+					</a>
+					<a href="#" class="like_con">
+						<dl>
+							<dt><img src="images/suning_226.png"/></dt>
+							<dd class="like_txt">
+								<p>好奇银装L大号128片干爽舒适纸尿裤特特彩箱装（10-14kg）</p>
+								<span>¥ 159.00</span>
+							</dd>
+						</dl>
+					</a>
+				</div>
+			</div>
+			<!--下载客户端-->
+			<div class="client">
+				<a href="#" class="download">
+					<p class="txt1">下载苏宁易购客户端</p>
+					<p class="txt2">享手机专享专属实惠</p>
+					<span>立即下载</span>
+				</a>
+			</div>
+			<!--页脚-->
+			<div class="footer">
+				<ul class="footer_nav">
+					<li><a href="#">登陆</a></li>
+					<li><a href="#">注册</a></li>
+					<li><a href="#">电脑版</a></li>
+					<li><a href="#">普通版</a></li>
+					<li class="nopadd"><a href="#">客户端</a></li>
+				</ul>
+				<p>Copyright &copy; 2002-2016 苏宁 suning.con 版权所有</p>
+			</div>
+		</div>
+	</body>
+</html>

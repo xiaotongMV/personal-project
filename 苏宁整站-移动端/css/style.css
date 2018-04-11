@@ -1,0 +1,1103 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+}
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+/*头部*/
+.hea {
+  z-index: 1;
+  width: 15.05rem;
+  height: 1.85rem;
+  background: #fabc09;
+  padding-left: 0.55rem;
+  padding-right: 0.4rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.heaLeft {
+  width: 0.825rem;
+  height: 1.6rem;
+  float: left;
+  padding-top: 0.25rem;
+}
+.heaLeft img {
+  width: 0.8rem;
+  height: 0.7rem;
+  margin-bottom: 0.25rem;
+}
+.heaLeft span {
+  width: 0.825rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 0.4rem;
+  color: #4b442d;
+  display: block;
+}
+.heaCenter {
+  width: 12rem;
+  height: 1.25rem;
+  border: 0;
+  float: left;
+  background: #d5dba9 url(../images/suning_09.png) no-repeat 0.4rem 0.375rem;
+  background-size: 0.525rem 0.575rem;
+  border-radius: 0.2rem;
+  margin-left: 0.575rem;
+  margin-top: 0.35rem;
+}
+.heaRight {
+  width: 1.225rem;
+  height: 1.625rem;
+  padding-top: 0.225rem;
+  float: right;
+}
+.heaRight img {
+  width: 0.85rem;
+  height: 0.85rem;
+  margin-bottom: 0.15rem;
+}
+.heaRight span {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 0.4rem;
+  color: #4b442d;
+  display: block;
+}
+/*内容*/
+.content {
+  width: 100%;
+  margin-top: 1.85rem;
+}
+.pic1 {
+  width: 16rem;
+  height: 6.825rem;
+}
+.pic2 {
+  width: 16rem;
+  height: 4.25rem;
+}
+/*板块一*/
+.menu {
+  width: 15.45rem;
+  height: 6.075rem;
+  background: #cce3d1;
+  padding: 0.275rem;
+  border-top: 0.05rem solid #acd3b3;
+  border-bottom: 0.05rem solid #acd3b3;
+}
+.subMenu {
+  width: 2.65rem;
+  height: 3.075rem;
+  margin-right: 0.55rem;
+  float: left;
+}
+.subMenu dl {
+  width: 2.65rem;
+  height: 3.075rem;
+}
+.subMenu dt {
+  width: 1.7rem;
+  height: 1.7rem;
+  padding: 0.275rem 0.475rem 0;
+}
+.subMenu dd {
+  height: 1.1rem;
+  line-height: 1.1rem;
+  font-size: 0.5rem;
+  text-align: center;
+  color: #7c8183;
+}
+.nomar {
+  margin-right: 0;
+}
+/*头条*/
+.sntt {
+  width: 15.575rem;
+  height: 2.175rem;
+  background: #cce3d1 url(../images/suning_43.png) no-repeat left center;
+  background-size: 0.4rem 1.025rem;
+  padding-left: 0.425rem;
+}
+.sntt h3 {
+  width: 3.1rem;
+  height: 2.175rem;
+  float: left;
+  margin-right: 0.775rem;
+  line-height: 2.175rem;
+  font-size: 0.6rem;
+  background: url(../images/suning_46.png) no-repeat right center;
+  background-size: 0.075rem 0.825rem;
+}
+.sntt h3 a {
+  color: #fa4b4b;
+}
+.snttRight {
+  width: 8.75rem;
+  height: 1.3rem;
+  float: left;
+  margin-top: 0.375rem;
+  margin-bottom: 0.5rem;
+}
+.snttRight li {
+  height: 0.65rem;
+  line-height: 0.65rem;
+  font-size: 0.5rem;
+  background: url(../images/suning_49.png) no-repeat left 0.325rem;
+  background-size: 0.15rem 0.15rem;
+  padding-left: 0.425rem;
+}
+.snttRight .cor1 {
+  color: #232022;
+}
+.snttRight .cor2 {
+  color: #969596;
+}
+/*板块二*/
+.section {
+  width: 16rem;
+  height: 19.075rem;
+  background: #b8d9be;
+  padding-bottom: 0.5rem;
+  padding-top: 0.475rem;
+}
+.sec {
+  width: 15.95rem;
+  height: 6.2rem;
+  margin-bottom: 0.025rem;
+}
+.secLeft {
+  width: 7.975rem;
+  height: 6.2rem;
+  float: left;
+  margin-right: 0.025rem;
+}
+.secRight {
+  width: 7.95rem;
+  height: 6.2rem;
+  float: left;
+}
+.secRight li {
+  width: 7.95rem;
+  height: 3.075rem;
+}
+.secRight .mar {
+  margin-bottom: 0.025rem;
+}
+.sec2 {
+  width: 16rem;
+  height: 12.875rem;
+}
+.sec2 li {
+  width: 3.95rem;
+  height: 6.45rem;
+  margin-right: 0.05rem;
+  float: left;
+}
+/*掌上抢*/
+.rob {
+  width: 15.2rem;
+  height: 6.85rem;
+  background: #cce3d1;
+  padding-left: 0.4rem;
+  padding-top: 0.35rem;
+  padding-right: 0.4rem;
+}
+.bt {
+  width: 15.2rem;
+  height: 1.325rem;
+  background: url(../images/suning_70.png) no-repeat left top;
+  background-size: 2.9rem 0.975rem;
+}
+.btLeft {
+  width: 4.375rem;
+  height: 0.975rem;
+  float: left;
+  margin-left: 3.3rem;
+  padding-top: 0.35rem;
+}
+.btLeft span {
+  display: block;
+  width: 1.35rem;
+  height: 0.425rem;
+  font-size: 0.425rem;
+  line-height: 0.425rem;
+  float: left;
+  color: #fd4142;
+  margin-top: 0.125rem;
+  margin-right: 0.225rem;
+}
+.btLeft b {
+  display: block;
+  float: left;
+  width: 0.5rem;
+  height: 0.475rem;
+  font-size: 0.35rem;
+  line-height: 0.475rem;
+  text-align: center;
+  border: 0.05rem solid #99ae92;
+  border-radius: 0.125rem;
+  color: #090307;
+}
+.btLeft i {
+  display: block;
+  width: 0.45rem;
+  height: 0.575rem;
+  font-size: 0.35rem;
+  line-height: 0.575rem;
+  float: left;
+  font-style: normal;
+  color: #090307;
+}
+.btLeft .bor_cor {
+  border-color: #f94d4c;
+  color: #f94d4c;
+}
+.btRight {
+  width: 3rem;
+  height: 0.725rem;
+  margin-top: 0.25rem;
+  float: right;
+}
+.btRight span {
+  display: block;
+  width: 2.575rem;
+  height: 0.725rem;
+  background: #ffc001;
+  line-height: 0.725rem;
+  text-align: center;
+  font-size: 0.425rem;
+  color: #62781e;
+  float: left;
+  border-radius: 0.375rem;
+}
+.btRight img {
+  width: 0.35rem;
+  height: 0.575rem;
+  margin-left: 0.075rem;
+  margin-top: 0.1rem;
+  float: right;
+}
+.rob_con {
+  width: 15.2rem;
+  height: 5.075rem;
+}
+.con {
+  width: 4.75rem;
+  height: 5.075rem;
+  float: left;
+  margin-right: 0.3rem;
+}
+.con dl {
+  width: 4.75rem;
+  height: 5.075rem;
+}
+.con dl dt {
+  width: 4.65rem;
+  height: 3.55rem;
+  border: 0.05rem solid #a3c2a0;
+  border-bottom: none;
+}
+.con_1 {
+  width: 4.75rem;
+  height: 1.475rem;
+  background: #dddddd;
+}
+.con_1 p {
+  width: 2.575rem;
+  height: 0.7rem;
+  line-height: 0.7rem;
+  font-size: 0.4rem;
+  padding-left: 0.55rem;
+  color: #dd0000;
+  float: left;
+}
+.con_1 del {
+  width: 2.7rem;
+  display: block;
+  height: 0.6rem;
+  padding-left: 0.425rem;
+  padding-top: 0.175rem;
+  font-size: 0.3rem;
+  line-height: 0.3rem;
+  color: #9b9b9b;
+  float: left;
+}
+.con_1 img {
+  width: 1.5rem;
+  height: 1.475rem;
+  display: inline-block;
+}
+.rob2 {
+  width: 16rem;
+  height: 6.9rem;
+  background: #cce3d1;
+  padding-top: 0.45rem;
+}
+.rob2 a {
+  width: 7.95rem;
+  height: 6.4rem;
+  float: left;
+  margin-right: 0.05rem;
+}
+/*大聚惠*/
+.section2 {
+  width: 16rem;
+  height: 9.8rem;
+  border-bottom: 0.5rem solid #b8d9be;
+}
+.section2 h3 {
+  width: 16rem;
+  height: 1.225rem;
+  border-bottom: 0.05rem solid #b8d9be;
+  line-height: 1.225rem;
+  text-align: center;
+  font-size: 0.55rem;
+  float: left;
+  font-weight: normal;
+}
+.section2 h3 a {
+  color: #fe546c;
+}
+.sec_app {
+  width: 7.95rem;
+  height: 8.525rem;
+  border-right: 0.05rem solid #b8d9be;
+  float: left;
+}
+.sec_app dl {
+  width: 7.95rem;
+  height: 8.525rem;
+}
+.sec_app dd {
+  width: 7.95rem;
+  height: 6.425rem;
+}
+.sec_txt {
+  height: 1.625rem;
+  padding-left: 0.45rem;
+  padding-top: 0.5rem;
+}
+.sec_txt h4 {
+  height: 0.65rem;
+  line-height: 0.65rem;
+  font-size: 0.65rem;
+  color: #ea4c69;
+  font-weight: normal;
+}
+.sec_txt p {
+  height: 0.675rem;
+  font-size: 0.5rem;
+  line-height: 0.5rem;
+  color: #9a9a9a;
+  padding-top: 0.3rem;
+}
+.sec_cz {
+  width: 7.95rem;
+  height: 3.05rem;
+  border-right: 0.05rem solid #b8d9be;
+  border-bottom: 0.05rem solid #b8d9be;
+  float: left;
+}
+.sec_cz dl {
+  width: 7.95rem;
+  height: 3.05rem;
+}
+.sec_txt2 {
+  width: 3.95rem;
+  height: 2.225rem;
+  float: left;
+  padding-left: 0.45rem;
+  padding-top: 0.825rem;
+}
+.sec_txt2 h4 {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-size: 0.6rem;
+  color: #383838;
+  font-weight: normal;
+}
+.sec_txt2 p {
+  height: 0.5rem;
+  font-size: 0.5rem;
+  line-height: 0.5rem;
+  color: #9a9a9a;
+  margin-top: 0.3rem;
+}
+.sec_txt2 p span {
+  color: #dd7270;
+}
+.sec_cz dd {
+  width: 3.55rem;
+  height: 3.05rem;
+  float: right;
+}
+.sec_tm {
+  width: 3.95rem;
+  height: 5.4rem;
+  border-right: 0.05rem solid #b8d9be;
+  float: left;
+}
+.sec_tm dl {
+  width: 3.95rem;
+  height: 5.4rem;
+}
+.sec_txt3 {
+  width: 3.95rem;
+  height: 1.6rem;
+  padding-top: 0.5rem;
+}
+.sec_txt3 h4 {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-size: 0.6rem;
+  color: #383838;
+  text-align: center;
+  font-weight: normal;
+}
+.sec_txt3 p {
+  height: 0.45rem;
+  font-size: 0.45rem;
+  line-height: 0.45rem;
+  color: #9a9a9a;
+  text-align: center;
+  margin-top: 0.325rem;
+}
+.sec_tm dd {
+  width: 3.95rem;
+  height: 3.3rem;
+}
+.sec_txt3 .back {
+  background: url(../images/bz.png) no-repeat 3.025rem center;
+  background-size: 0.55rem 0.625rem;
+}
+/*每日一抢*/
+.bulK {
+  width: 16rem;
+  height: 4.25rem;
+  border-bottom: 0.475rem solid #b8d9be;
+}
+.bulk {
+  width: 14.725rem;
+  height: 3.125rem;
+  padding-left: 1.275rem;
+  padding-top: 1.125rem;
+  background: #f8fcf8 url(../images/suning_105.png) no-repeat 11.975rem 1.1rem;
+  background-size: 2.25rem 2.75rem;
+}
+.bulk h3 {
+  height: 0.85rem;
+  line-height: 0.85rem;
+  font-size: 0.85rem;
+  color: #2d3c4e;
+  font-weight: normal;
+  margin-bottom: 0.6rem;
+}
+.bulk p {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-size: 0.6rem;
+  color: #909ca2;
+}
+/*特色好货*/
+.features {
+  width: 16rem;
+  height: 17rem;
+  border-bottom: 0.425rem solid #a3ceab;
+}
+.features h3 {
+  width: 16rem;
+  height: 1.25rem;
+  border-bottom: 0.05rem solid #b8d9be;
+  line-height: 1.25rem;
+  text-align: center;
+  font-size: 0.6rem;
+  color: #5cc61f;
+  float: left;
+  font-weight: normal;
+}
+.yogurt {
+  width: 7.95rem;
+  height: 6.225rem;
+  float: left;
+  border-right: 0.05rem solid #b6d8bc;
+  border-bottom: 0.05rem solid #b6d8bc;
+}
+.yogurt dl {
+  width: 7.95rem;
+  height: 6.225rem;
+}
+.yogurt_txt {
+  height: 1.375rem;
+  padding-left: 0.425rem;
+  padding-top: 0.55rem;
+}
+.yogurt_txt h4 {
+  height: 0.55rem;
+  line-height: 0.55rem;
+  font-size: 0.55rem;
+  color: #dd5859;
+  font-weight: normal;
+  margin-bottom: 0.225rem;
+}
+.yogurt_txt p {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-size: 0.45rem;
+  color: #acacac;
+}
+.yogurt_txt p span {
+  display: inline-block;
+  width: 2.05rem;
+  height: 0.6rem;
+  background: #e42d2f;
+  border-radius: 0.25rem;
+  text-align: center;
+  color: #ffd6d5;
+}
+.yogurt dd {
+  width: 7.95rem;
+  height: 4.25rem;
+}
+.list {
+  width: 7.95rem;
+  height: 3.1rem;
+  float: left;
+  border-bottom: 0.05rem solid #a3ceab;
+  border-right: 0.05rem solid #a3ceab;
+}
+.list dl {
+  width: 7.95rem;
+  height: 3.1rem;
+}
+.list_txt {
+  width: 4.325rem;
+  height: 2.6rem;
+  float: left;
+  padding-left: 0.425rem;
+  padding-top: 0.5rem;
+}
+.list_txt h4 {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-size: 0.6rem;
+  color: #606060;
+  font-weight: normal;
+  margin-bottom: 0.225rem;
+}
+.list_txt p {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-size: 0.45rem;
+  color: #acacac;
+}
+.list dd {
+  width: 3.2rem;
+  height: 3.1rem;
+  float: right;
+}
+.list2 .list_txt {
+  width: 3.7rem;
+}
+.list2 dd {
+  width: 3.825rem;
+}
+.list2 .list_txt .cor3 {
+  color: #20a9c9;
+}
+.list2 .list_txt .back2 {
+  width: 3.6rem;
+  height: 0.75rem;
+  line-height: 0.75rem;
+  font-size: 0.6rem;
+  color: #7862f0;
+  background: url(../images/gq.png) no-repeat right center;
+  background-size: 0.825rem 0.75rem;
+  font-weight: normal;
+  margin-bottom: 0.2rem;
+}
+/*拜托了*/
+.banner {
+  width: 16rem;
+  height: 4.275rem;
+  border-bottom: 0.5rem solid #b8d9be;
+}
+/*热门市场*/
+.market {
+  width: 16rem;
+  height: 29.85rem;
+  border-bottom: 0.475rem solid #b8d7be;
+}
+.market h3 {
+  width: 16rem;
+  height: 1.225rem;
+  border-bottom: 0.05rem solid #b8d9be;
+  line-height: 1.225rem;
+  text-align: center;
+  font-size: 0.6rem;
+  color: #00c7d9;
+  float: left;
+  font-weight: normal;
+}
+.office {
+  width: 7.95rem;
+  height: 6.4rem;
+  float: left;
+  border-bottom: 0.05rem solid #b8d7be;
+  border-right: 0.05rem solid #b8d7be;
+}
+.office dl {
+  width: 7.95rem;
+  height: 6.4rem;
+}
+.office_txt {
+  height: 2rem;
+  padding-top: 0.475rem;
+}
+.office_txt h4 {
+  height: 0.7rem;
+  line-height: 0.7rem;
+  font-size: 0.7rem;
+  color: #6ebad5;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 0.3rem;
+}
+.office_txt p {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 0.5rem;
+  text-align: center;
+  color: #acacac;
+}
+.office dd {
+  width: 7.95rem;
+  height: 3.925rem;
+}
+.clothing .office_txt {
+  width: 3.575rem;
+  height: 5.925rem;
+  padding-top: 0.475rem;
+  padding-left: 0.45rem;
+  float: left;
+}
+.clothing .office_txt h4 {
+  height: 0.7rem;
+  line-height: 0.7rem;
+  font-size: 0.7rem;
+  color: #9d2edf;
+  font-weight: normal;
+  margin-bottom: 0.3rem;
+}
+.clothing .office_txt p {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 0.5rem;
+  color: #acacac;
+}
+.clothing dd {
+  width: 3.925rem;
+  height: 6.4rem;
+  float: right;
+}
+.show {
+  width: 5.275rem;
+  height: 5.5rem;
+  float: left;
+  border-bottom: 0.05rem solid #b8d7be;
+  border-right: 0.05rem solid #b8d7be;
+}
+.show dl {
+  width: 5.275rem;
+  height: 5.5rem;
+}
+.show_txt {
+  height: 1.675rem;
+  padding-top: 0.575rem;
+  padding-left: 0.425rem;
+}
+.show_txt h4 {
+  height: 0.65rem;
+  line-height: 0.65rem;
+  font-size: 0.65rem;
+  color: #545454;
+  font-weight: normal;
+  margin-bottom: 0.325rem;
+}
+.show_txt p {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 0.5rem;
+  color: #acacac;
+}
+.show dd {
+  width: 5.275rem;
+  height: 3.25rem;
+}
+.back3 {
+  background: #fbfbfb;
+}
+/*品牌荟萃*/
+.brand {
+  width: 16rem;
+  height: 7.475rem;
+  border-bottom: 0.5rem solid #b8d9be;
+}
+.brand h3 {
+  width: 16rem;
+  height: 1.225rem;
+  border-bottom: 0.05rem solid #b8d9be;
+  line-height: 1.225rem;
+  text-align: center;
+  font-size: 0.6rem;
+  color: #795ffb;
+  float: left;
+  font-weight: normal;
+}
+.brand_1 {
+  width: 7.95rem;
+  height: 6.2rem;
+  float: left;
+  border-right: 0.05rem solid #b6dcd1;
+}
+.brand_2 {
+  width: 3.95rem;
+  height: 6.2rem;
+  float: left;
+  border-right: 0.05rem solid #b6dcd1;
+}
+.brand_2 dl {
+  width: 3.95rem;
+  height: 6.2rem;
+}
+.brand_2_txt {
+  height: 1.625rem;
+  padding-top: 0.5rem;
+}
+.brand_2_txt h4 {
+  height: 0.55rem;
+  line-height: 0.55rem;
+  font-size: 0.55rem;
+  color: #3f3f3f;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 0.325rem;
+}
+.brand_2_txt p {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 0.5rem;
+  text-align: center;
+  color: #acacac;
+}
+.brand_2 dd {
+  width: 3.95rem;
+  height: 4.075rem;
+}
+/*苏宁金融*/
+.brand2 {
+  height: 7.5rem;
+}
+.brand2 .brand_1 {
+  height: 6.225rem;
+}
+.brand2 h3 {
+  color: #2f90fd;
+}
+.brand2 .list {
+  height: 3.1rem;
+}
+.brand2 .list2 {
+  border-bottom: none;
+}
+.brand2 .list_txt h4 {
+  font-size: 0.55rem;
+  height: 0.55rem;
+  line-height: 0.55rem;
+}
+.brand2 .list_txt p {
+  font-size: 0.5rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+}
+/*好店推荐*/
+.recommended {
+  width: 16rem;
+  height: 10.15rem;
+  background: #cce3d1;
+}
+.recommended h3 {
+  height: 1.225rem;
+  border-bottom: 0.05rem solid #abd2b2;
+  line-height: 1.225rem;
+  background: #fff;
+  text-align: center;
+  font-size: 0.6rem;
+  color: #a36335;
+  font-weight: normal;
+}
+.guild {
+  height: 8.875rem;
+  padding-left: 0.35rem;
+}
+.guildLeft {
+  width: 5.7rem;
+  height: 2.175rem;
+  float: left;
+  padding-left: 2.125rem;
+  padding-top: 0.55rem;
+  background: url(../images/suning_186.png) no-repeat left center;
+  background-size: 1.7rem 1.7rem;
+}
+.guildLeft h4 {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-size: 0.6rem;
+  color: #383838;
+  font-weight: normal;
+  margin-bottom: 0.325rem;
+}
+.guildLeft p {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 0.5rem;
+  color: #959395;
+}
+.guildRight {
+  background: url(../images/suning_189.png) no-repeat left center;
+  background-size: 1.7rem 1.7rem;
+}
+.guild1 {
+  width: 7.35rem;
+  height: 4.875rem;
+  margin-right: 0.475rem;
+  float: left;
+}
+.guild1_1 {
+  width: 4.8rem;
+  height: 4.8rem;
+  float: left;
+  margin-right: 0.05rem;
+  border: 0.05rem solid #a4c3a1;
+}
+.guild1_2 {
+  width: 2.3rem;
+  height: 2.3rem;
+  float: left;
+  margin-bottom: 0.1rem;
+  border: 0.05rem solid #a4c3a1;
+}
+.guild1 .nomar {
+  margin-bottom: 0rem;
+}
+.guild2 {
+  width: 8.35rem;
+  height: 0.75rem;
+  float: left;
+  padding-left: 7.15rem;
+  padding-top: 0.5rem;
+}
+.guild2 li {
+  width: 0.25rem;
+  height: 0.25rem;
+  background: #9dc5a5;
+  float: left;
+  margin-right: 0.15rem;
+  border-radius: 0.125rem;
+}
+.guild2 .guild2_1 {
+  background: #ffc001;
+}
+/*猜你喜欢*/
+.like {
+  width: 15.65rem;
+  height: 44.9rem;
+  background: #b8d9be;
+  padding-left: 0.35rem;
+}
+.like_bt {
+  height: 1.25rem;
+  padding-top: 0.6rem;
+}
+.like_bt b {
+  display: block;
+  float: left;
+  margin-right: 0.375rem;
+  margin-top: 0.5rem;
+  width: 5.3rem;
+  border-bottom: 0.05rem solid #aec8ab;
+}
+.like_bt h3 {
+  float: left;
+  width: 2.775rem;
+  height: 0.85rem;
+  line-height: 0.85rem;
+  font-size: 0.65rem;
+  color: #416d2c;
+  font-weight: normal;
+  padding-left: 0.975rem;
+  background: url(../images/xin.png) no-repeat left center;
+  background-size: 0.875rem 0.85rem;
+}
+.like_bt span {
+  display: block;
+  float: left;
+  margin-left: 0.375rem;
+  margin-top: 0.5rem;
+  width: 5.3rem;
+  border-bottom: 0.05rem solid #aec8ab;
+}
+.like_section {
+  height: 43.05rem;
+}
+.like_con {
+  width: 7.475rem;
+  height: 10.4rem;
+  margin-right: 0.35rem;
+  margin-bottom: 0.35rem;
+  float: left;
+}
+.like_con dl {
+  width: 7.475rem;
+  height: 10.4rem;
+}
+.like_con dt {
+  width: 7.375rem;
+  height: 7.375rem;
+  border: 0.05rem solid #d4e7d8;
+}
+.like_txt {
+  width: 7.05rem;
+  height: 2.925rem;
+  background: #cce3d1;
+  padding-left: 0.2rem;
+  padding-right: 0.225rem;
+}
+.like_txt p {
+  height: 1.7rem;
+  line-height: 0.85rem;
+  font-size: 0.5rem;
+  color: #2c2b2c;
+}
+.like_txt span {
+  display: block;
+  height: 1.075rem;
+  font-size: 0.45rem;
+  line-height: 0.45rem;
+  padding-top: 0.15rem;
+  color: #e21d1e;
+}
+/*下载客户端*/
+.client {
+  width: 16rem;
+  height: 3.2rem;
+  border-bottom: 0.475rem;
+}
+.download {
+  width: 16rem;
+  height: 3.2rem;
+  background: #fe6155 url(../images/suning_230.png) no-repeat 1.325rem 0.75rem;
+  background-size: 1.675rem 1.675rem;
+  position: relative;
+}
+.download .txt1 {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-size: 0.6rem;
+  color: #FFFFFF;
+  position: absolute;
+  left: 3.55rem;
+  top: 0.925rem;
+}
+.download .txt2 {
+  height: 0.55rem;
+  line-height: 0.55rem;
+  font-size: 0.55rem;
+  color: #ffe8e5;
+  position: absolute;
+  left: 3.55rem;
+  bottom: 0.975rem;
+}
+.download span {
+  display: block;
+  width: 2.95rem;
+  height: 1.1rem;
+  line-height: 1.1rem;
+  font-size: 0.6rem;
+  padding-left: 1.05rem;
+  background: url(../images/suning_233.png) no-repeat 0.25rem 0.15rem;
+  background-size: 0.525rem 0.85rem;
+  border: 0.075rem solid #ffaea8;
+  border-radius: 0.15rem;
+  color: #FFFFFF;
+  position: absolute;
+  right: 1.1rem;
+  top: 0.95rem;
+}
+/*页脚*/
+.footer {
+  width: 16rem;
+  height: 4.625rem;
+  background: #cbe3d1;
+}
+.footer_nav {
+  height: 1.875rem;
+  padding-left: 1.05rem;
+}
+.footer_nav li {
+  width: 1.65rem;
+  height: 1.875rem;
+  line-height: 1.875rem;
+  font-size: 0.5rem;
+  padding-right: 1.55rem;
+  float: left;
+}
+.footer_nav li a {
+  color: #272829;
+}
+.footer_nav .nopadd {
+  padding-right: 0;
+}
+.footer p {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 0.5rem;
+  color: #939594;
+  padding-left: 2.025rem;
+  margin-top: 0.5rem;
+}
